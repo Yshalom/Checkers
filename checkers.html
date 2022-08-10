@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="checkers.css" />
+    <script src="checkers.js"></script>
+</head>
+<body style="text-align: -webkit-center; margin-top: 10px; position: relative;">
+    <div style="display: grid; grid-template-columns: auto max-content;">
+        <div  onclick="HideLaws()">
+            <h1>Play Checkers</h1>
+
+            <div style="width: fit-content; height: fit-content; position: relative;">
+                <div id="BoardBackground"></div>
+                <div id="BoardPlayer"></div>
+                <div id="WinLossPanel"></div>
+            </div>
+        </div>
+
+        <div id="RightBar">
+            <div class="RightBarItem">
+                <span>Level: </span>
+                <select style="background: #eaeaea; font-size: 90%; border-radius: 7px; margin: -3px 0px;" id="DepthSelection">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7" selected="selected">7</option>
+                    <option value="8" >8</option>
+                    <option value="9" >9</option>
+                    <option value="10" >10</option>
+                </select>
+                <spna id="DepthValue"></spna>
+            </div>
+
+            <button onclick="ShowLaws()" class="RightBarItem">The Rules</button>
+            <button class="RightBarItem" onclick="location.href = '';">Retray</button>
+            <button onclick="ComputerFirst()" class="RightBarItem" id="ComputerFirstButton">Computer First</button>
+            </div>
+    </div>
+
+    <div id="Laws">
+        <h2><u>The Rules</u></h2>
+        <div style="text-align: left;">
+            * Players' movements are one step forward (in the enemy direction) and diagonally.
+            <br />
+            <br />
+            * If any player can 'jump' over an enemy's player, it has to jump and remove the enemy's player. The jumping can be in any direction <b>and also backward.</b>
+            If the player can jump again after jumping, it has to jump again.
+            <br />
+            <br />
+            * When any player reaches the end of the board he is becoming a king.
+            the king can move in any direction (also backward) and can run more than one step.
+            <br />
+            <br />
+            * The winning comes when the enemy has no players or he has no movements to do.
+        </div>
+    </div>
+</body>
+</html>
