@@ -3,6 +3,10 @@
 
 <p>To run the project download all the files, place them in the same folder, and open <i>'checkers.html'</i> in some browser (for example Google Chrome).</p>
 
+</br></br>
+
+<div style="border: 1px solid;">
 <img src="checkers 1.png"></img>
 <img src="checkers 2.png"></img>
 <img src="checkers 3.png"></img>
+</div>
