@@ -5,6 +5,6 @@
 
 </br></br>
 
-<img src="checkers 1.png" width="70%"></img>
-<img src="checkers 2.png" width="70%"></img>
-<img src="checkers 3.png" width="70%"></img>
+<img src="checkers 1.png"></img>
+<img src="checkers 2.png"></img>
+<img src="checkers 3.png"></img>
