@@ -5,6 +5,7 @@
 
 </br></br>
 
+<p>In the below pictures, you can see several states from the game when it runs.</p>
 <img src="checkers 1.png"></img>
 <img src="checkers 2.png"></img>
 <img src="checkers 3.png"></img>
